@@ -9,7 +9,7 @@ const App: React.FC = () => {
             <Router basename={process.env.PUBLIC_URL}>
             <Switch>
 
-      <Route path="/" exact component={User} />
+      <Route path="/home" exact component={User} />
       <Route path="/success" component={Success} />
 
       </Switch>
