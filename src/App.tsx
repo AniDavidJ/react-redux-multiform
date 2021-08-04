@@ -6,7 +6,7 @@ import Success from './pages/User/Success';
 const App: React.FC = () => {
   return (
     <div>
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
             <Switch>
 
       <Route path="/" exact component={User} />
