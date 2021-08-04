@@ -2,7 +2,7 @@
   "name": "reduxform",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://anidavidj.github.io/react-redux-multiform/",
+  "homepage": "https://anidavidj.github.io/react-redux-multiform/",
   "dependencies": {
     "@types/jest": "24.0.16",
     "@types/lodash": "^4.14.136",
@@ -55,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
