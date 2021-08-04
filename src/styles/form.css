@@ -1,0 +1,15 @@
+
+.form-background{
+    background-color: rgb(118, 187, 233);
+    position: absolute;
+    width: 100%;
+height: 100vh;
+
+}
+.stepper-container{
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+margin-bottom: 15px;
+padding-bottom: 15px;
+}

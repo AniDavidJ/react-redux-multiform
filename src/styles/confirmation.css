@@ -1,0 +1,89 @@
+
+.confirmation-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px dashed rgb(14, 13, 13);
+    margin: 20px;
+    flex-direction: column;
+    background-color: white;
+    transition: all 1s ease;
+    
+ 
+}
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.label-field{
+    font-size: 12px;
+    font-weight: 500;
+  }
+.two-row {
+    margin-left: 15px;
+    width: 90%;
+
+}
+.field-row{
+ margin-right: 10px;
+ width:100px;
+ font-size: 12px;
+ font-weight: 500;
+ display: inline-block;
+margin: 8px;
+
+}
+.img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  
+}
+.img-person{
+    height: 60px;
+    cursor: pointer;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+.button-back {
+    background-color: rgb(177, 172, 173);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 70px;
+    margin-left: 30px;
+}
+.button {
+    background-color: rgb(220, 53, 69);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 70px;
+    margin-left: 30px;
+}
+.right-container{
+    width:350px;
+}
+.person{
+    height: 100%;
+}
+.camera-outline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.signature-outline{
+    height: 80px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+
+  .personal-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 40px;
+    border:1px dashed rgb(14, 13, 13);
+    margin: 20px;
+    background-color: white;
+    /* transition: all 1s ease-out; */
+    /* transition: all 1s ease; */
+
+
+}
+
+.cardbody {
+  margin-top: 20px;
+  justify-content: center;
+  transition: all 1s ease-out;
+}
+.sameRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6px;
+
+}
+.label{
+  height: 20px;
+  margin-right: 10px;
+
+}
+.label-field{
+  font-size: 12px;
+  font-weight: 500;
+}
+.next-button{
+  background-color: rgb(220, 53, 69);
+  border-radius: 5px;
+  border: none;
+  color:white;
+  height: 35px;
+  width:60px;
+  transition: all 1s ease-out;
+
+}
+.button-back {
+  background-color: rgb(177, 172, 173);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  height: 35px;
+  width: 70px;
+  margin-left: 30px;
+}
