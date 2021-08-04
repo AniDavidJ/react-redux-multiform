@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-redux-multiform/static/css/main.80574f13.chunk.css",
-    "main.js": "/react-redux-multiform/static/js/main.8e26bce7.chunk.js",
-    "main.js.map": "/react-redux-multiform/static/js/main.8e26bce7.chunk.js.map",
-    "runtime~main.js": "/react-redux-multiform/static/js/runtime~main.d09697a6.js",
-    "runtime~main.js.map": "/react-redux-multiform/static/js/runtime~main.d09697a6.js.map",
-    "static/js/2.8ae7d57c.chunk.js": "/react-redux-multiform/static/js/2.8ae7d57c.chunk.js",
-    "static/js/2.8ae7d57c.chunk.js.map": "/react-redux-multiform/static/js/2.8ae7d57c.chunk.js.map",
-    "index.html": "/react-redux-multiform/index.html",
-    "precache-manifest.5e9a3e2d0a3cd0d66de1b14471827465.js": "/react-redux-multiform/precache-manifest.5e9a3e2d0a3cd0d66de1b14471827465.js",
-    "service-worker.js": "/react-redux-multiform/service-worker.js",
-    "static/css/main.80574f13.chunk.css.map": "/react-redux-multiform/static/css/main.80574f13.chunk.css.map"
+    "main.css": "https://anidavidj.github.io/react-redux-multiform/static/css/main.80574f13.chunk.css",
+    "main.js": "https://anidavidj.github.io/react-redux-multiform/static/js/main.a4d33529.chunk.js",
+    "main.js.map": "https://anidavidj.github.io/react-redux-multiform/static/js/main.a4d33529.chunk.js.map",
+    "runtime~main.js": "https://anidavidj.github.io/react-redux-multiform/static/js/runtime~main.22ddcf87.js",
+    "runtime~main.js.map": "https://anidavidj.github.io/react-redux-multiform/static/js/runtime~main.22ddcf87.js.map",
+    "static/js/2.8ae7d57c.chunk.js": "https://anidavidj.github.io/react-redux-multiform/static/js/2.8ae7d57c.chunk.js",
+    "static/js/2.8ae7d57c.chunk.js.map": "https://anidavidj.github.io/react-redux-multiform/static/js/2.8ae7d57c.chunk.js.map",
+    "index.html": "https://anidavidj.github.io/react-redux-multiform/index.html",
+    "precache-manifest.2d1ac904480c153f66d007dd211c69f3.js": "https://anidavidj.github.io/react-redux-multiform/precache-manifest.2d1ac904480c153f66d007dd211c69f3.js",
+    "service-worker.js": "https://anidavidj.github.io/react-redux-multiform/service-worker.js",
+    "static/css/main.80574f13.chunk.css.map": "https://anidavidj.github.io/react-redux-multiform/static/css/main.80574f13.chunk.css.map"
   }
 }
