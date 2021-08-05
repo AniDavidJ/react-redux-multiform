@@ -9,27 +9,20 @@ export const User = (props: any) => {
 
     const handleSubmit = (values: any) => {
         console.log("Submitted values", values);
-
-        const formData = new FormData();
-        if (typeof values.picture !== "string" && values.picture !== null) {
-            formData.append("picture", values.profile, "pic");
-        }
-
-        axios
-            .post(`http://localhost:3000/posts/`, {
-                values,
-                headers: { "content-type": "multipart/form-data" },
-                body: formData,
-            })
-            .then((res) => {
-        alert("Successfully submitted");
-    })
-            .catch((err) =>  alert(err)
-            );
-        props.dispatch(addUser(values));
-        props.dispatch(reset("user"));
-        props.history.push("/success");
-        setLoading(false);
+            axios
+                .post(`http://localhost:3000/posts/`, {
+                    values,
+                })
+                .then((res) => {
+                    alert("Successfully submitted");
+                    props.dispatch(addUser(values));
+                    props.dispatch(reset("user"));
+                    props.history.push("/success");
+                    setLoading(false);
+                })
+                .catch((err) => alert(err));
+            
+       
     };
 
     return (

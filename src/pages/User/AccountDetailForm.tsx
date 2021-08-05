@@ -22,17 +22,7 @@ export const AccountDetailForm: React.FC<Props & InjectedFormProps<{}, Props>> =
             <div className="personal-container">
                 <div className="left">
                     <div className="cardbody">
-                        <div className="sameRow">
-                            <div className="label">
-                                <label htmlFor="officeLandLineNumber" className="label-field">Landline Number</label>
-                            </div>
-                            <Field
-                                name="officeLandLineNumber"
-                                type="text"
-                                component={ReduxFormInput}
-                                normalize={accountNumber}
-                            />
-                        </div>
+                     
                         <div className="sameRow">
                             <div className="label">
                                 <label htmlFor="officeBuildingName" className="label-field">Building Name</label>
@@ -53,6 +43,17 @@ export const AccountDetailForm: React.FC<Props & InjectedFormProps<{}, Props>> =
                                 type="text"
                                 component={ReduxFormInput}
                                 normalize={name}
+                            />
+                        </div>
+                        <div className="sameRow">
+                            <div className="label">
+                                <label htmlFor="officeLandLineNumber" className="label-field">Landline Number</label>
+                            </div>
+                            <Field
+                                name="officeLandLineNumber"
+                                type="text"
+                                component={ReduxFormInput}
+                                normalize={accountNumber}
                             />
                         </div>
                         <div className="sameRow">
