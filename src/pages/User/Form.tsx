@@ -68,7 +68,7 @@ export const Form: React.FC<InjectedFormProps> = (props: any) => {
                     <ConfirmationPage
                         isLoading={isLoading}
                         previousPage={previousPage}
-                        onSubmit={onSubmit}
+                        onSubmit={onSubmit} 
                     />
                 )}
             </div>

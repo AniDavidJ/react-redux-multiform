@@ -83,7 +83,9 @@ margin: 8px;
     justify-content: space-evenly;
 }
 .signature-outline{
-    height: 80px;
+    
+    height: 90px;
     text-align: center;
     cursor: pointer;
+    /* background-color: blueviolet; */
 }
