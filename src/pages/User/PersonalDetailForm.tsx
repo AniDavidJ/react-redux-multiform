@@ -17,7 +17,7 @@ export const PersonalDetailForm: React.FC<Props & InjectedFormProps<{}, Props>> 
         <>
 
         <form onSubmit={handleSubmit} noValidate={true} > 
-            <div className="personal-container">
+            <div className="personal-container" style={{ transform: `translateX(-${0* 100}vw)` }}>
                 <div className="left">
                     <div className="cardbody">
                             <div className="sameRow">
@@ -95,8 +95,10 @@ export const PersonalDetailForm: React.FC<Props & InjectedFormProps<{}, Props>> 
                         className="next-button"
                         type="submit"
                         style={{ marginRight: "10px" }}
+                        
                     >
                         Next &nbsp;
+                        
                     </button>
                 </div>
             </div>
