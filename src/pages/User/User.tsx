@@ -20,7 +20,11 @@ export const User = (props: any) => {
                     props.history.push("/success");
                     setLoading(false);
                 })
-                .catch((err) => alert(err));
+                .catch((err) =>{
+                    setLoading(true);
+                    alert(err)
+                    
+                });
             
        
     };

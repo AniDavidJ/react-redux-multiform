@@ -20,7 +20,11 @@ export const Form: React.FC<InjectedFormProps> = (props: any) => {
     const previousPage = () => {
         setPage(page - 1);
     };
-
+    if(isLoading) {
+        console.log("loading..");
+        
+        return <div className="content">Checking Authentiction...</div>
+    }
     return (
         <div className="form-background">
             {page === 0 && (
