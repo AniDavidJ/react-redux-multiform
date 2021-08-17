@@ -24,7 +24,9 @@ export const User = (props: any) => {
             
        
     };
-
+    if(isLoading) {
+        return <div className="content">Checking Authentiction...</div>
+    }
     return (
         <>
             <Form onSubmit={handleSubmit} isLoading={isLoading} {...props} />

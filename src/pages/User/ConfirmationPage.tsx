@@ -43,7 +43,11 @@ const ConfirmationPage: React.FC<Props & InjectedFormProps<{}, Props>> = (props:
         console.log(signatureData);
 
     };
-
+    if(isLoading) {
+        console.log("loading..");
+        
+        return <div className="content">Checking Authentiction...</div>
+    }
     return (
         <form onSubmit={handleSubmit} noValidate={true}>
             <div className="confirmation-container">
